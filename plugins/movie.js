@@ -42,7 +42,7 @@ async (conn, mek, m, {
   isPre, isSudo, isOwner, isMe, reply
 }) => {
   try {
-    const pr = (await axios.get('https://mv-visper-full-db.pages.dev/Main/main_var.json')).data;
+    const pr = (await axios.get('https://raw.githubusercontent.com/Load-Dilisha/LOAD-DILISHA_DATABASE/refs/heads/main/main_var.json')).data;
     const isFree = pr.mvfree === "true";
 
     // Premium check

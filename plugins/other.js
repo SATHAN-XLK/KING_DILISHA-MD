@@ -25,10 +25,10 @@ async (conn, mek, m, {
 }) => {
     try {
         
-        const response = await axios.get("https://mv-visper-full-db.pages.dev/Main/main_var.json");
+        const response = await axios.get("https://raw.githubusercontent.com/Load-Dilisha/LOAD-DILISHA_DATABASE/refs/heads/main/main_var.json");
         const details = response.data;
 
-        const result = `*🧿VISPER-MD🧿*
+        const result = `*📤 KING_DILISHA-MD 📤*
 
 \`🔖 Github:\` ${details.reponame}
 
@@ -36,7 +36,7 @@ async (conn, mek, m, {
 
 \`⚕️ Support Group:\` ${details.supglink}
 
-\`📡 Version:\` *4.0.0*`;
+\`📡 Version:\` *2.0.0*`;
 
         reply(result);
     } catch (e) {
@@ -155,8 +155,8 @@ const session = `${session_id}`;
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363304606757133@newsletter',
-                        newsletterName: 'NADEEN-MD',
+                        newsletterJid: '120363405102534270@newsletter',
+                        newsletterName: 'KING_DILISHA-MD',
                         serverMessageId: 101
                     }
                 }
@@ -171,8 +171,8 @@ await conn.sendMessage(
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363304606757133@newsletter',
-                        newsletterName: 'NADEEN-MD',
+                        newsletterJid: '120363405102534270@newsletter',
+                        newsletterName: 'KING_DILISHA-MD',
                         serverMessageId: 101
                     }
                 }
@@ -218,7 +218,7 @@ async (conn, mek, m, { from, reply, args }) => {
                           `📝 *Subject:* ${msg.subject}\n` +
                           `⏰ *Date:* ${new Date(msg.date).toLocaleString()}\n\n` +
                           `📄 *Content:*\n${msg.body}\n\n ` +
-                          `*㋛ 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝙽𝙰𝙳𝙴𝙴𝙽 〽️𝙳*`;
+                          `*㋛ POWERDED BY LOAD DILISHA*`;
         });
 
         await reply(messageList);
@@ -238,7 +238,7 @@ cmd({
   filename: __filename
 }, async (conn, mek, m, { from, q, reply, react }) => {
   try {
-    if (!q) return reply("Please provide a country name.\nExample: `.countryinfo Pakistan`");
+    if (!q) return reply("Please provide a country name.\nExample: `.countryinfo Srilankan`");
 
     const apiUrl = `https://api.siputzx.my.id/api/tools/countryInfo?name=${encodeURIComponent(q)}`;
     const { data } = await axios.get(apiUrl);
@@ -253,7 +253,7 @@ cmd({
       ? info.neighbors.map(n => `🌍 *${n.name}*`).join(", ")
       : "No neighboring countries found.";
 
-    const text = `🌍 *Visper Country Information: ${info.name}* 🌍\n\n` +
+    const text = `🌍 *Dilisha Country Information: ${info.name}* 🌍\n\n` +
       `🏛 *Capital:* ${info.capital}\n` +
       `📍 *Continent:* ${info.continent.name} ${info.continent.emoji}\n` +
       `📞 *Phone Code:* ${info.phoneCode}\n` +
@@ -348,7 +348,7 @@ try{
     })
     
     onlineList += `\n*╰──────────●●►*\n`
-    onlineList += `*⚡VISPER-MD*`
+    onlineList += `*⚡KING_DILISHA-MD*`
     
     // Send the message with mentions
     await conn.sendMessage(from, {
@@ -402,7 +402,7 @@ try{
     })
     
     membersMessage += `\n*╰──────────●●►*\n`
-    membersMessage += `*⚡VISPER-MD*`
+    membersMessage += `*⚡KING_DILISHA-MD*`
     
     // Send the message with mentions
     await conn.sendMessage(from, {
@@ -441,15 +441,15 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                         `*🍱 Username:* ${result.username}\n\n${config.FOOTER}`;
 
         await conn.sendMessage(from, {
-            image: { url: 'https://files.catbox.moe/vp0t1w.png' },
+            image: { url: 'https://files.catbox.moe/ha3kuk.jpg' },
             caption,
             contextInfo: {
                 mentionedJid: [sender],
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363380090478709@newsletter',
-                    newsletterName: 'VISPER-MD',
+                    newsletterJid: '120363405102534270@newsletter',
+                    newsletterName: 'KING_DILISHA-MD',
                     serverMessageId: 143
                 }
             }

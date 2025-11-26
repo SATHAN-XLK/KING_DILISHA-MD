@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 
 //gg
 module.exports = {
-SESSION_ID: 'KING_DILISHA=bcMl0SCL#PM-FUswOJHMHBuSDVkgNtIPT8xhAq-bypSGPCoAhGLc', // ඔතනට "KING_DILISHA=" කියලා දාන්න ඕන බොට් කනෙක්ට් වෙලා රිස්පොන්ස් එකක් නැති උනොත් උදා- .alive , .menu ගැහුවට බොට් වැඩ කරේ නැත්තන් අනිවාර්යයෙන් session id එක අලුත් කරන්න ඕන අලුත් session එකක් දාන්න එතකොට හරි.
+SESSION_ID: 'LOAD_DILISHA=bcMl0SCL#PM-FUswOJHMHBuSDVkgNtIPT8xhAq-bypSGPCoAhGLc', // ඔතනට "LOAD_DILISHA=" කියලා දාන්න ඕන බොට් කනෙක්ට් වෙලා රිස්පොන්ස් එකක් නැති උනොත් උදා- .alive , .menu ගැහුවට බොට් වැඩ කරේ නැත්තන් අනිවාර්යයෙන් session id එක අලුත් කරන්න ඕන අලුත් session එකක් දාන්න එතකොට හරි.
 ANTI_DELETE: process.env.ANTI_DELETE === undefined ? 'true' : process.env.ANTI_DELETE, // මේක false හෝ off දැම්මොත් antidelete off වෙනවා.
 MV_BLOCK: process.env. MV_BLOCK === undefined ? 'true' : process.env. MV_BLOCK,  // මෙතනින් අනිත් අය මූවි ගන්න එක නවත්තන්න පුලුවන්  
 ANTI_LINK: process.env.ANTI_LINK === undefined ? 'true' : process.env.ANTI_LINK, // මේකෙන් අනිත් අයට ගෲප් වල link shair කරපුහම අවවාද යන එක මේක ඔෆ් කරොත් ඒවා යන්නෙ නෑ
